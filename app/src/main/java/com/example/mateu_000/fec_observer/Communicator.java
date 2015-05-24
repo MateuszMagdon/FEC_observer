@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
 public class Communicator {
     public static final String URI = "http://floodemergencycoordinator.apphb.com";
 
-    public static void postBackupRequest(ObserverReport report) {
+    public static void postObserverReport(ObserverReport report) {
         PostRequestTask task = new PostRequestTask();
         task.addContent(report.toJSON());
         JSONObject result = executeAsyncTakAndReturnResult(task, "/api/observer/observerReport");

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FEC_observer</string>
 
-    <string name="taskDescription">Description</string>
+    <string name="taskDescription">Description: </string>
     <string name="send_button">Send</string>
     <string name="localizationIncluded">Your localization will be included.</string>
 

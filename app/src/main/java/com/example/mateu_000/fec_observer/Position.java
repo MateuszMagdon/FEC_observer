@@ -10,7 +10,7 @@ public class Position {
     public double Latitude;
     public double Longitude;
 
-    public Position(double longitude, double latitude) {
+    public Position(double latitude, double longitude) {
         Longitude = longitude;
         Latitude = latitude;
     }
