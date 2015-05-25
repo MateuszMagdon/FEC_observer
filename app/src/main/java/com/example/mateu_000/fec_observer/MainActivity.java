@@ -76,5 +76,7 @@ public class MainActivity extends ActionBarActivity {
 
         Toast.makeText(getApplicationContext(), "Sending...",
                 Toast.LENGTH_SHORT).show();
+
+        descriptionInput.setText("");
     }
 }
